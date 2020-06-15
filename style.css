@@ -4,27 +4,20 @@
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: #343a40;
 }
 
-span {
-    color: rgb(148, 148, 148);
-}
-
-nav a {
-    color: rgb(148, 148, 148);
-}
-
+/*
 .navbar-brand {
     padding-left: 20px;
     padding-right: 20px;
     background-color: rgb(226, 133, 11);
     color: whitesmoke;
 }
-
+*/
+/* 
 .active {
     color: whitesmoke;
-}
+} */
 
 /* 
 .navbar-nav-scroll {

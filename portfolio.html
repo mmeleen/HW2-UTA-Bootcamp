@@ -11,7 +11,10 @@
   <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/superhero/bootstrap.min.css" rel="stylesheet" integrity="sha384-rvwYMW9Z/bbxZfgxHQEKx6D91KwffWAG+XnsoYNCGWi/qL1P9dIVYm1HBiHFqQEt" crossorigin="anonymous">
   <!-- Custom CSS-->
   <link rel="stylesheet" href="./style.css">
-  
+
+  <!-- Font Awesome Script -->
+  <script src="https://kit.fontawesome.com/550527528e.js" crossorigin="anonymous"></script>
+
   <title>Matt Meleen | Portfolio</title>
 
 </head>
@@ -19,14 +22,14 @@
   <!-- Navbar -->
   <header> 
     <nav class="navbar navbar-expand bg-dark flex-column flex-sm-row justify-content-between">
-      <a class="navbar-brand btn btn-info" href="./index.html">MATT MELEEN</a>
+      <a class="navbar-brand btn btn-outline-info mr-0 mt-1 mb-1 border-top-0 border-right-0 border-left-0" href="./index.html">MATT MELEEN</a>
       <div class="navbar-nav-scroll">
         <ul class="navbar-nav flex-row nav-pills">
           <li class="nav-item">
             <a class="nav-link" href="./index.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+            <a class="nav-link active bg-transparent border-primary border-bottom" href="./portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./contact.html">Contact</a>
@@ -36,10 +39,10 @@
     </nav>
   </header>
 
-  <!-- Sticky Footer -->
-  <footer class="navbar navbar-expand bg-dark fixed-bottom">
-    <span class="text-muted">Place sticky footer content here.</span>
-    <!--<span class="navbar-text">Use this one for navbar formatting.</span>-->
+  <!-- Sticky Footer w/ Profile Links-->
+  <footer class="navbar navbar-expand bg-dark fixed-bottom justify-content-center">
+    <a class = "nav navbar-item nav-link" href="https://www.linkedin.com/in/mattmeleen/"><span class="fab fa-linkedin"></span> LinkedIn</a>
+    <a class = "nav navbar-item nav-link" href="https://github.com/mmeleen"><span class="fab fa-github-square"></span> Github</span></a>
   </footer>
     
   <!-- Bootstrap JS -->
